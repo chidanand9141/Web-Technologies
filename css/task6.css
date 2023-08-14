@@ -1,0 +1,19 @@
+/* background origin */
+/* backgrond image */
+/* background clip  */
+/* backgroung color */
+div{
+    height: 400px;
+    width: 400px;
+    border: 15px dotted blue;
+    /* background-image: url(../html/images\ \(3\).jpg); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:border-box ;
+    /* background-origin:border-box; */
+    color: violet;
+    font-size: x-large;
+    font-weight: lighter;
+
+}

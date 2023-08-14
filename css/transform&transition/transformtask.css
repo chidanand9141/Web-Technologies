@@ -1,0 +1,112 @@
+#A{
+    border: 1px solid red;
+    height: 550px;
+    width: 700px;
+    background-color: thistle;
+   
+}
+#a{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    background-color: yellowgreen;
+    transition:2s;
+}
+#a:hover{
+    transform: rotate(360deg);
+    background-image: url(../R.jpg);
+}
+#b{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 290px;
+    top: 30px;
+    background-color: violet;
+    transition: 2s;
+}
+#b:hover{
+    transform: scale(0.5,2);
+}
+#c{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 520px;
+    top: 30px;
+    background-color: tan;
+    transition: 3s;
+}
+#c:hover{
+    transform: skew(120deg,180deg);
+}
+#d{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    position: absolute;
+    left: 40px;
+    top: 220px;
+    transition: 3s;
+}
+#d:hover{
+    transform: translate(300px,200px);
+}
+#e{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 290px;
+    top: 220px;
+    transition: 2s;
+}
+#e:hover{
+    transform: matrix(2,5,4,2,6,7);
+}
+#f{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 520px;
+    top: 220px;
+    transition: 5s;
+}
+#f:hover{
+    transform: skewY(360deg);
+}
+#g{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    top: 400px;
+    background-color:slategrey ;
+    transition: 3s;
+}
+#g:hover{
+    transform: scaleX(30);
+}
+#h{
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 290px;
+    top: 400px ;
+    background-color: chocolate;
+    transition: 3s;
+}
+#h:hover{
+    transform: scaleY(5);
+}

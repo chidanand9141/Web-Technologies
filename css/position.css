@@ -1,0 +1,31 @@
+/* relative */
+#demo{
+    height: 600px;
+    width: 600px;
+    border: 1px solid red;
+    overflow: auto;
+    position: relative;
+    top: 100px;
+}
+/* fixed */
+/* #demo img{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+} */
+/* absolute */
+/* #demo{
+    height: 600px;
+    width: 600px;
+    border: 1px solid red;
+    overflow: auto;
+    position: relative;
+    top: 100px;
+} */
+/* absolute */
+/* #demo img{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+} */
+

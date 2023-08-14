@@ -1,0 +1,280 @@
+#chessboard{
+   border: 80px double burlywood;
+   height: 1650px;
+   width: 1600px;   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 420px;
+    background-color: black;
+}
+.boxes{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+   
+}
+#chess1{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+}
+#chess2{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess3{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess4{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess5{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess6{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess7{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chess8{
+    border: 1px solid;
+    height: 200px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxesa{
+    background-color: burlywood;
+}
+.boxesb{
+    background-color: black;
+}
+.boxesc{
+    background-color: burlywood;
+}
+.boxesd{
+    background-color: black;
+}
+.boxese{
+    background-color: burlywood;
+}
+.boxesf{
+    background-color: black;
+}
+.boxesg{
+    background-color: burlywood;
+}
+.boxesh{
+    background-color: black;
+}
+.boxesi{
+    background-color: black;
+}
+.boxesj{
+    background-color: burlywood;
+}
+.boxesk{
+    background-color: black;
+}
+.boxesl{
+    background-color: burlywood;
+}
+.boxesm{
+    background-color: black;
+}
+.boxesn{
+    background-color: burlywood;
+}
+.boxeso{
+    background-color: black;
+}
+.boxesp{
+    background-color: burlywood;
+}
+.boxesq{
+    background-color: burlywood;
+}
+.boxesr{
+    background-color: black;
+}
+.boxess{
+    background-color: burlywood;
+}
+.boxest{
+    background-color: black;
+}
+.boxesu{
+    background-color: burlywood;
+}
+.boxesv{
+    background-color: black;
+}
+.boxesw{
+    background-color: burlywood;
+}
+.boxesx{
+    background-color: black;
+}
+.boxesy{
+    background-color: black;
+}
+.boxesz{
+    background-color: burlywood;
+}
+.boxesaa{
+    background-color: black;
+}
+.boxesbb{
+    background-color: burlywood;
+}
+.boxescc{
+    background-color: black;
+}
+.boxesdd{
+    background-color: burlywood;
+}
+.boxesee{
+    background-color: black;
+}
+.boxesff{
+    background-color: burlywood;
+}
+.boxesgg{
+    background-color: burlywood;
+}
+.boxeshh{
+    background-color: black;
+}
+.boxesii{
+    background-color: burlywood;
+}
+.boxesjj{
+    background-color: black;
+}
+.boxeskk{
+    background-color: burlywood;
+}
+.boxesll{
+    background-color: black;
+}
+.boxesmm{
+    background-color: burlywood;
+}
+.boxesnn{
+    background-color: black;
+}
+.boxesoo{
+    background-color: black;
+}
+.boxespp{
+    background-color: burlywood;
+}
+.boxesqq{
+    background-color: black;
+}
+.boxesrr{
+    background-color: burlywood;
+}
+.boxesss{
+    background-color: black;
+}
+.boxestt{
+    background-color: burlywood;
+}
+.boxesuu{
+    background-color: black;
+}
+.boxesvv{
+    background-color: burlywood;
+}
+.boxesww{
+    background-color: burlywood;
+}
+.boxesxx{
+    background-color: black;
+}
+.boxesyy{
+    background-color: burlywood;
+}
+.boxeszz{
+    background-color: black;
+}
+.boxesab{
+    background-color: burlywood;
+}
+.boxesac{
+    background-color: black;
+}
+.boxesad{
+    background-color: burlywood;
+}
+.boxesae{
+    background-color: black;
+}
+.boxesaf{
+    background-color: black;
+}
+.boxesag{
+    background-color: burlywood;
+}
+.boxesah{
+    background-color: black;
+}
+.boxesai{
+    background-color: burlywood;
+}
+.boxesaj{
+    background-color: black;
+}
+.boxesak{
+    background-color: burlywood;
+}
+.boxesal{
+    background-color: black;
+}
+.boxesam{
+    background-color: burlywood;
+}
+.fa-chess-rook{
+    height: 300px;
+    width: 300px;
+}

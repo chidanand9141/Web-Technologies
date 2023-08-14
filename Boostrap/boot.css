@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 100000;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+}
+#carouselExampleIndicators{
+    position: relative;
+    left: 20px;
+    top: 70px;
+    
+}
+.d-flex button{
+border-radius: 5px;
+font-family: NotoSansBold,sans-serif;
+width: 7px;
+height: 60px;
+position: relative;
+right: 250px;
+background-color: rgb(0, 0, 0); 
+color: white;
+border: 1px solid white;
+}
+.demo{
+    height: 200px;
+    width: 1200px;
+    background-image: url(../css/1312x312f0f3b262c0d7407f8ab773eeb3d4d60a.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 90px;
+    left: -30px;
+
+}
+span{
+    width: 130px;
+    height: 35px;
+    right: 150px;
+    font-family: NotoSansBold,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3em;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    top: 1px;
+    /* color: white; */
+    background-color: #8230c6;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    padding: 9px 10px;
+}
+button .carousel-control-next-icon{
+    background-color:#fff;
+    border-radius: 10px;
+    height: 100px;
+    color: black;
+    position: relative;
+    left: -40px;
+}
+button .carousel-control-prev-icon{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100px;
+    color: black;
+    position: relative;
+    left: 20px;
+}
+.carousel-inner{
+    position: relative;
+    left: 150px;
+}
+.carousel-item img{
+background-image: url(../animation/images/OIP\ \(1\).jfif);
+}

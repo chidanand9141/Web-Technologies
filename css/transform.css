@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+article{
+    border: 5px double blue;
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    transition: 5s;
+}
+article:hover{
+    /* transform: rotate(360deg);
+    transform: rotateX(180deg);
+    transform: rotateY(60deg);
+    transform: rotateX(180deg);
+    transform: scale(2,3);
+    transform: scaleX(2);
+    transform: scaleY(4);
+    transform: scaleZ(8);
+    transform: skew(160deg,360deg);
+    transform: skewX(220deg);
+    transform: skewY(220deg);
+    transform: translate(100px,100px);
+    transform: translateX(500px);
+    transform: translateY(500px);
+    transform: translateZ(100px); */
+    transform: matrix(0.5,6,2,3,5,3);
+}
+
+
+//skew(90deg,360deg)
+//first value 90d is an element slant 90deg in the x axis.
+//second value 360 indecate an element /360deg in the y axis.
+//skewX(10deg) skewy(20deg)
+//translate(100px,200px) 100px indecates an elemnt moves 100px in the x axis
+//200px indecates an element moves 200px in the y axis
+//translate(100px),(200px)
+//matrix()matrix is used to compile all the transform property into one
+//matrix(scalex,scaley,scalex,scaley,translatex,translatey)

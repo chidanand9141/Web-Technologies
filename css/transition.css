@@ -1,0 +1,38 @@
+div{
+    height: 600px;
+    width: 800px;
+    border: 10px groove royalblue;
+    background-color: tomato;
+}
+#test{
+    height: 200px;
+    width: 200px;
+    border: 10px groove yellowgreen;
+    background-color: antiquewhite;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    /* transition: width 5s,height 5s ; */
+    transition-delay: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: 5s;
+    transition-delay: 2s;
+    /* transform: translate(360deg); */
+
+}
+#test:hover{
+    /* width: 700px; */
+    /* height: 300px; */
+    /* font-weight: bolder; */
+    /* background-color: aquamarine; */
+    /* border: rosybrown; */
+    /* background-image: url(../html/puneeth.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    border-radius: 100%;
+    transform: rotate(360deg);
+    
+}

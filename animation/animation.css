@@ -1,0 +1,57 @@
+#A{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    animation-name: pmc;
+    animation-duration: 5s;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    /* animation-delay: ; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+}
+/* @keyframes pmc{
+    from{
+        background-color:yellowgreen ;
+        border-radius: 40px;
+        transform: rotate(360deg)
+    }
+    to{
+        background-image: url(../css/loard.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 80px;
+    }
+} */
+@keyframes pmc{
+    0%{
+        transform: translateX(0) rotate(360deg);
+    }
+    25%{
+        transform: translateY(100%) ;
+    }
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateX(100%) ;
+    }
+    10%{
+        /* transform: translateY(100%); */
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  
+}

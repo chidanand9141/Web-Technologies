@@ -1,0 +1,89 @@
+#main{
+    height: 600px;
+    width: 800px;
+    border: 1px double red;
+    background-color: aqua;
+    position: relative;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+#a{
+    border: 5px groove rosybrown;
+    background-color: blanchedalmond;
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    top: 162px;
+    left: 206px;
+    z-index: 120;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+#b{
+    border: 5px groove yellowgreen;
+    background-color: violet;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 82px;
+    left: 95px;
+    z-index: 100;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transform-origin: center;
+}
+#c{
+    border: 5px groove turquoise;
+    background-color: brown;
+    height: 165px;
+    width: 325px;
+    position: absolute;
+    top: 206px;
+    left: 240px;
+    z-index: 130;       
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+#d{
+    border: 5px groove turquoise;
+    background-color: brown;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 350px;
+    left: 1150px;
+    z-index: 130;
+}
+p{
+    color: slategray;
+    text-shadow: 10px 10px 3px black;
+    font-size: 30px;
+    text-decoration: overline;
+    text-decoration-color: yellow;
+}
+#a:hover{
+    background-color: blue;
+    background-color: rgb(194, 75, 159);
+    transform: rotateX(160deg);
+}
+#b:hover{
+    background-color: yellowgreen;
+    background-color: tomato;
+    transform: scale(2);
+}
+#c:hover{
+    background-color: rgb(146, 118, 113);
+    transform: rotateY(120deg);
+
+}
+#main:hover{
+background-color: darkblue;
+/* transform: rotateZ(360deg); */
+/* transform-style: preserve-3d; */
+}
+p:hover{
+    background-color: darkorange;
+}
+#d:hover{
+    background-color: silver;
+}

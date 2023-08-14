@@ -1,0 +1,52 @@
+#a{
+    border: 1px solid;
+    height: 300px;
+    background-image: url(./images/OIP\ \(4\).jfif);
+    background-repeat: no-repeat;
+    background-size: 1500px 300px;
+    animation-name: image;
+    animation-duration: 5s;
+    /* animation-delay: 5s; */
+    animation-iteration-count: infinite;
+}
+/* #b{
+    border: 1px solid;
+    height: 200px;
+    background-image: url(./images/OIP\ \(5\).jfif);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+} */
+#c{
+    border: 1px solid;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#a7{
+    border: 1px solid white;
+    height: 20px;
+    width: 100px;
+    background-color: aliceblue;
+    /* animation-name: road;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+}
+#a8{
+    position: absolute;
+    top: 400px;
+    animation-name: car;
+    animation-duration: 0.5s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+}
+@keyframes car{
+    100%{transform: translate(1000px);}
+}
+@keyframes image{
+    from{background-image: url(./images/OIP\ \(3\).jfif)}
+    /* to{background-image: url(./images/OIP\ \(5\).jfif);} */
+}

@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.container{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 60px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.trans{
+    border: 20px solid;
+    height:400px;
+    width: 400px;
+    border-radius: 100%;
+    background-color: violet;
+   animation: trans 1s infinite;
+   border-left-color: blue;
+   border-right-color: tomato;
+   border-top-color: teal;
+   box-shadow: 10px 4px 20px 10px;
+   overflow: hidden;
+
+}
+
+@keyframes trans{
+    to{transform: rotate(-360deg);}
+
+}

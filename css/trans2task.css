@@ -1,0 +1,53 @@
+#a{
+    border: 5px solid black;
+    height: 200px;
+    width: 80px;
+    background-color: tomato;
+    position: absolute;
+    left: 400px;
+    top: 165px;
+    transition: height 2s,3s;
+}
+div a:nth-child(1):hover{
+    height: 280px;
+}
+#b{
+    border: 5px solid black;
+    height: 80px;
+    width: 400px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 400px;
+    top: 440px;
+    transition: width 2s,3s;
+}
+#b:hover{
+    width: 300px;
+}
+#c{
+    border: 5px solid black;
+    height: 80px;
+    width: 400px;
+    background-color: teal;
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    transition: width 2s,3s;
+}
+#c:hover{
+    width: 300px;
+    /* background-color: aquamarine; */
+}
+#d{
+    border: 5px solid black;
+    height: 200px;
+    width: 80px;
+    background-color: burlywood;
+    position: absolute;
+    left: 720px;
+    top: 165px;
+    transition: height 2s,3s;
+}
+#d:hover{
+    height:27 0px;
+}

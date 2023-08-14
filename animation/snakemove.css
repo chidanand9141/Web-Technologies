@@ -1,0 +1,105 @@
+*{
+    padding: auto;
+    margin: 50px;
+    background-color: black;
+}
+#A{
+    border: 1px solid;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+div ul{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 3px solid rgb(161, 235, 14);
+}
+div ul li{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 0px 10px;
+    list-style: none;
+    border-radius: 50px;
+    animation: none;
+    animation: snake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px thistle;
+}
+@keyframes snake{
+    /* 50%{transform: translate(150px);} */
+    100%{transform: translateY(100%) translateY(100%);}
+}
+ul li:nth-child(1){
+    /* animation-delay: 20s; */
+    animation-duration: 8s;
+    background-color: violet;
+    box-shadow: 20px 20px 20px steelblue;
+}
+ul li:nth-child(2){
+    /* animation-delay: 20s; */
+    animation-duration: 10s;
+    background-color: rgb(130, 238, 182);
+    box-shadow: 20px 20px 20px rgb(180, 154, 70);
+}
+ul li:nth-child(3){
+    /* animation-delay: 20s; */
+    animation-duration: 12s;
+    background-color: rgb(238, 215, 130);
+    box-shadow: 20px 20px 20px rgb(70, 180, 85);
+}
+ul li:nth-child(4){
+    /* animation-delay: 4s; */
+    animation-duration: 16s;
+    background-color: rgb(100, 30, 100);
+    box-shadow: 20px 20px 20px rgb(180, 70, 147);
+}
+ul li:nth-child(5){
+    /* animation-delay: 5s; */
+    animation-duration: 10s;
+    background-color: rgb(167, 6, 79);
+    box-shadow: 20px 20px 20px rgb(180, 160, 70);
+}
+ul li:nth-child(6){
+    /* animation-delay: 7s; */
+    animation-duration: 17s;
+    background-color: violet;
+    box-shadow: 20px 20px 20px steelblue;
+}
+ul li:nth-child(7){
+    /* animation-delay: 8s; */
+    animation-duration: 14s;
+    background-color: rgb(130, 238, 182);
+    box-shadow: 20px 20px 20px rgb(180, 154, 70);
+}
+ul li:nth-child(8){
+    /* animation-delay: 7s; */
+    animation-duration: 16s;
+    background-color: rgb(238, 215, 130);
+    box-shadow: 20px 20px 20px rgb(70, 180, 85);
+}
+ul li:nth-child(9){
+    /* animation-delay: 9s; */
+    animation-duration: 18s;
+    background-color: rgb(100, 30, 100);
+    box-shadow: 20px 20px 20px rgb(180, 70, 147);
+}
+ul li:nth-child(10){
+    /* animation-delay: 10s; */
+    animation-duration: 20s;
+    background-color: rgb(167, 6, 79);
+    box-shadow: 20px 20px 20px rgb(180, 160, 70);
+}
+ul li:hover{
+    height: 200px;
+    width: 200px;
+    box-shadow: 20px 20px 20px;
+    transform: rotate(360deg)
+}

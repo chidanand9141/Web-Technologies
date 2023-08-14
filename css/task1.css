@@ -1,0 +1,17 @@
+*{
+    background-attachment: scroll;
+}
+
+nav{
+    border: 20px dashed red;
+    background-position: center;
+    font-size: xx-large;
+    color: aliceblue;
+    font-weight: bolder;
+    background-image: url(../html/images\ \(2\).jpg);
+    background-size: 600px 500px; 
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+}
