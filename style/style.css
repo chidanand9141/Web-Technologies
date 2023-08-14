@@ -1,0 +1,20 @@
+table{
+    background-color: aquamarine;
+    border: 1px;
+    width: 300px;
+    height: 300px;
+}
+body{
+    align-content: center;
+    background-color: antiquewhite;
+    height: 500px;
+    width: 500px;
+}
+h3{
+    color: red;
+    text-align: center;
+    margin-left: 40px;
+}
+table{
+    background-color: bisque;
+}

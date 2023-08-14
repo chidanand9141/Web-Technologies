@@ -1,0 +1,109 @@
+*{
+    background-color: black;
+}
+
+#c{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    position: relative;
+    left: 229px;
+    bottom: -91px;  
+    box-shadow: 20px 20px 20px violet;
+    border-radius: 20px;
+    transition-delay: 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px rgb(31, 152, 204);
+}
+#c:hover{
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    transform: rotateX(60deg);
+   
+
+}
+#d{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(205, 169, 50);
+    position: relative;
+    left: 546px;
+    bottom: 108px; 
+    box-shadow: 20px 20px 20px rgb(130, 197, 238);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px #c2103a;
+}
+#d:hover{
+    height: 250px;
+    width: 250px;
+    background-color: violet;
+    transform: rotateY('50deg');
+}
+#e{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: #aef015;
+    position: relative;
+    left: 221px;
+    bottom: 44px;
+    box-shadow: 20px 20px 20px rgb(238, 130, 179);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px thistle;
+}
+#e:hover{
+    height: 250px;
+    width: 250px;
+    box-shadow: 20px 20px 20px blanchedalmond;
+    transform: skew(60deg);
+}
+#f{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    position: relative;
+    left: 548px;
+    bottom: 244px;
+    box-shadow: 20px 20px 20px rgb(236, 238, 130);
+    border-radius: 20px;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px #15d322;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+#f:hover{
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: darkgray;
+    transform: rotate(360deg);
+    
+}

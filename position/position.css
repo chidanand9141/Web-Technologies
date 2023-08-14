@@ -1,0 +1,41 @@
+@import url(./position1.css);
+@import url(./position2.css);
+
+#b{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    background-color: aliceblue;
+}
+#c{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    right: 200px;
+    background-color: black;
+}
+#d{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    background-color: aliceblue;
+
+}
+#e{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    background-color: black;
+
+}

@@ -1,57 +1,26 @@
-#A{
+#a{
     border: 1px solid;
-    height: 500px;
-    width: 500px;
-    background-color: black;
+    height: 100vh;
+    background-color: rgb(17, 10, 1);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#a{
-    border: 1px solid red;
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
-    animation-name: pmc;
-    animation-duration: 5s;
+#b{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: yellowgreen;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
-    /* animation-delay: ; */
+    animation: rotated;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    /* animation-direction: alternate-reverse; */
 }
-/* @keyframes pmc{
-    from{
-        background-color:yellowgreen ;
-        border-radius: 40px;
-        transform: rotate(360deg)
-    }
-    to{
-        background-image: url(../css/loard.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 80px;
-    }
-} */
-@keyframes pmc{
-    0%{
-        transform: translateX(0) rotate(360deg);
-    }
-    25%{
-        transform: translateY(100%) ;
-    }
-    50%{
-        transform: translateX(100%) translateY(100%);
-    }
-    75%{
-        transform: translateX(100%) ;
-    }
-    10%{
-        /* transform: translateY(100%); */
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-  
+@keyframes rotated{
+    from{height: 300px; width: 300px; border-radius: 20px; background-color: violet; box-shadow: 20px 20px 20px steelblue;}
+    to{height: 400px; width: 400px; border-radius: 30px; background-color: blueviolet; font-size: 100px; box-shadow: 20px 20px 20px rgb(70, 180, 81);}
+    
+    100%{ transform: rotate(360deg);}
 }

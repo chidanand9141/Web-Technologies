@@ -1,0 +1,36 @@
+
+#a{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#b{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* transform: scale(60deg); */
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    box-shadow: 20px 20px 20px thistle;
+}
+#b:hover{
+    height: 300px;
+    width: 300px;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 20px 20px 20px yellowgreen;
+    background-color: darkgray;
+   transform: rotate(360deg);
+
+}
