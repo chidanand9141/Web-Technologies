@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+   box-shadow: 8px 18px 8px white;
+   filter: drop-shadow(8px 8px 4px #FAEA10);
+   
+}
